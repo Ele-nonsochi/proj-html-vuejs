@@ -7,10 +7,10 @@
         <h1 class="">Build Your Dream TODAY</h1>
      </div>
 <div class="container pb-5">
-    <div class="row">
+    <div class="row d-flex flex-wrap">
         <div class="col text-center">
-            <div class="card border-none">
-                <img src="@/assets/images/home-5-image-box-01.png" alt="image">
+            <div class="card card-style">
+                <img src="@/assets/images/home-5-image-box-01.png" alt="image"  class="card-img">
                 <div class="">
                     <h4>Idea Discussion</h4>
                     <p class="">Get teamed up with the specialists who work and teach coding for years at famous universites.</p>
@@ -19,8 +19,8 @@
             </div>
         </div>
         <div class="col text-center">
-            <div class="card">
-                <img src="@/assets/images/home-5-image-box-02.png" alt="image" class="">
+            <div class="card card-style">
+                <img src="@/assets/images/home-5-image-box-02.png" alt="image" class="card-img">
                 <div class="">
                     <h4>Web Development</h4>
                     <p class="">Learn to start building a webpage from scratch. Yuo decide your own pace, course and speed.</p>
@@ -29,8 +29,8 @@
             </div>
         </div>
          <div class="col text-center">
-            <div class="card">
-                <img src="@/assets/images/home-5-image-box-03.png" alt="image" class="">
+            <div class="card card-style">
+                <img src="@/assets/images/home-5-image-box-03.png" alt="image" class="card-img">
                 <div class="">
                     <h4>System Administration</h4>
                     <p class="">Learners are encouraged to study the mechanism and structure of system administration.</p>
@@ -39,8 +39,8 @@
             </div>
         </div>
          <div class="col text-center">
-            <div class="card">
-                <img src="@/assets/images/home-5-image-box-04.png" alt="image" class="">
+            <div class="card card-style">
+                <img src="@/assets/images/home-5-image-box-04.png" alt="image" class="card-img">
                 <div class="">
                     <h4>Graphic Design</h4>
                     <p class="">Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness.</p>
@@ -58,7 +58,7 @@
     <div class="col-6 content-position">
        <h5>DREAM WITH MAXCOACH</h5>
        <h1 class="">Construct A Stunning Career Perspective</h1>
-        <div class="card">
+        <div class="card ">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">Multiple Platform Supported for Teaching & Studying
       <a class="d-inline"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>
@@ -105,74 +105,74 @@
 <section class="container pb-5">
     <div class="row row-cols-3">
         <div class="col">
-            <div class="card">
+            <div class="card card-style">
                 <img src="@/assets/images/course-02-480x298.jpg" alt="image" class="rounded">
                 <div class="">
-                    <img src="@/assets/images/profilo-piccolo1.jpeg">
+                    <img src="@/assets/images/profilo-piccolo1.jpeg" style="border-radious:10px">
                     <h6 class="d-inline">Blanche Fields</h6>
-                    <h3 class="fw-bold">Learning to Write as a Professional Author</h3>
+                    <h4 class="fw-bold">Learning to Write as a Professional Author</h4>
                     <p class="d-inline"><i class="fa fa-file-image-o"></i>20 Lesson</p>
                     <p class="d-inline"><i class="fa fa-user"></i>50 Students</p>
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card">
+            <div class="card card-style">
                 <img src="@/assets/images/stock-full-hd-03-480x298.jpg" alt="image" class="rounded">
                 <div class="">
                     <img src="@/assets/images/profilo-piccolo2.jpeg">
                     <h6 class="d-inline">Maggie Strickland</h6>
-                    <h3 class="fw-bold">Costumer-centric Info-Tech Strategies</h3>
+                    <h4 class="fw-bold">Costumer-centric Info-Tech Strategies</h4>
                     <p class="d-inline"><i class="fa fa-file-image-o"></i>22 Lesson</p>
                     <p class="d-inline"><i class="fa fa-user"></i>769 Students</p>
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card">
-                <img src="@/assets/images/course-02-480x298.jpg" alt="image" class="rounded">
+            <div class="card card-style">
+                <img src="@/assets/images/stock-full-hd-04-480x298.jpg" alt="image" class="rounded">
                 <div class="">
-                    <img src="@/assets/images/profilo-piccolo1.jpeg">
-                    <h6 class="d-inline">Blanche Fields</h6>
-                    <h3 class="fw-bold">Learning to Write as a Professional Author</h3>
-                    <p class="d-inline"><i class="fa fa-file-image-o"></i>20 Lesson</p>
-                    <p class="d-inline"><i class="fa fa-user"></i>50 Students</p>
+                    <img src="@/assets/images/profilo-piccolo2.jpeg">
+                    <h6 class="d-inline">Maggie Strickland</h6>
+                    <h4 class="fw-bold">Open Programming Course for Everyone: Python</h4>
+                    <p class="d-inline"><i class="fa fa-file-image-o"></i>17 Lesson</p>
+                    <p class="d-inline"><i class="fa fa-user"></i>62 Students</p>
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card">
-                <img src="@/assets/images/course-02-480x298.jpg" alt="image" class="rounded">
+            <div class="card card-style">
+                <img src="@/assets/images/stock-full-hd-06-480x298.jpg" alt="image" class="rounded">
                 <div class="">
                     <img src="@/assets/images/profilo-piccolo1.jpeg">
                     <h6 class="d-inline">Blanche Fields</h6>
-                    <h3 class="fw-bold">Learning to Write as a Professional Author</h3>
-                    <p class="d-inline"><i class="fa fa-file-image-o"></i>20 Lesson</p>
-                    <p class="d-inline"><i class="fa fa-user"></i>50 Students</p>
+                    <h4 class="fw-bold">Academic Listening and Note-taking</h4>
+                    <p class="d-inline"><i class="fa fa-file-image-o"></i>14 Lesson</p>
+                    <p class="d-inline"><i class="fa fa-user"></i>67 Students</p>
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card">
-                <img src="@/assets/images/course-02-480x298.jpg" alt="image" class="rounded">
+            <div class="card card-style">
+                <img src="@/assets/images/course-featured-image-01-480x298.jpg" alt="image" class="rounded">
                 <div class="">
                     <img src="@/assets/images/profilo-piccolo1.jpeg">
                     <h6 class="d-inline">Blanche Fields</h6>
-                    <h3 class="fw-bold">Learning to Write as a Professional Author</h3>
-                    <p class="d-inline"><i class="fa fa-file-image-o"></i>20 Lesson</p>
-                    <p class="d-inline"><i class="fa fa-user"></i>50 Students</p>
+                    <h4 class="fw-bold">Master jQuery in a Short Period of Time</h4>
+                    <p class="d-inline"><i class="fa fa-file-image-o"></i>6 Lesson</p>
+                    <p class="d-inline"><i class="fa fa-user"></i>51 Students</p>
                 </div>
             </div>
         </div>
         <div class="col">
-            <div class="card">
-                <img src="@/assets/images/course-02-480x298.jpg" alt="image" class="rounded">
+            <div class="card card-style">
+                <img src="@/assets/images/stock-full-hd-05-480x298.jpg" alt="image" class="rounded">
                 <div class="">
                     <img src="@/assets/images/profilo-piccolo1.jpeg">
                     <h6 class="d-inline">Blanche Fields</h6>
-                    <h3 class="fw-bold">Learning to Write as a Professional Author</h3>
-                    <p class="d-inline"><i class="fa fa-file-image-o"></i>20 Lesson</p>
-                    <p class="d-inline"><i class="fa fa-user"></i>50 Students</p>
+                    <h4 class="fw-bold">Introduction to Javascript for Beginner</h4>
+                    <p class="d-inline"><i class="fa fa-file-image-o"></i>14 Lesson</p>
+                    <p class="d-inline"><i class="fa fa-user"></i>76 Students</p>
                 </div>
             </div>
         </div>
@@ -193,13 +193,13 @@ export default {
 </script>
 
 <style lang="scss">
-.container-career{
+/*.container-career{
     position: relative;
     top: 0;
     left: 0;
 }
 .about-us-img{
     padding-left: 150px;
-}
+}*/
 
 </style>

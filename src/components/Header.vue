@@ -1,7 +1,8 @@
 <template>
   <header class="bg-color">
     <div class="container">
-      <nav class="nav-bar">
+    <NavBar></NavBar>
+      <!--<nav class="nav-bar">
         <img src="@/assets/images/dark-logo.png" alt="logo" />
         <ul>
           <li>Home</li>
@@ -13,10 +14,10 @@
           <li>Icon</li>
           <li><input type="search" /></li>
         </ul>
-      </nav>
-      <section class="container-hero space-top-bottom">
+      </nav>-->
+      <section class="container-hero space-top-bottom text-center">
         <div class="row">
-          <div class="col-5 content-position">
+          <div class="col-5 content-position text-start">
             <h1 class="">Complete your Dreams in JavaS Programming</h1>
             <p class="p-2">
               Learn any coding program in distance and for a reasonable free.
@@ -39,12 +40,12 @@
 </template>
 
 <script>
-
+import NavBar from "./NavBar.vue"
 
 export default {
   name: "Header",
   components: {
-    
+    NavBar,
   },
 };
 </script>
