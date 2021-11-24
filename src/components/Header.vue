@@ -1,21 +1,7 @@
 <template>
-  <header class="bg-color">
-    <div class="container">
+<header class="container bg-color">
     <NavBar></NavBar>
-      <!--<nav class="nav-bar">
-        <img src="@/assets/images/dark-logo.png" alt="logo" />
-        <ul>
-          <li>Home</li>
-          <li>Page</li>
-          <li>Courses</li>
-          <li>Features</li>
-          <li>Blog</li>
-          <li>Shop</li>
-          <li>Icon</li>
-          <li><input type="search" /></li>
-        </ul>
-      </nav>-->
-      <section class="container-hero space-top-bottom text-center">
+  <section class="container-hero space-top-bottom text-center">
         <div class="row">
           <div class="col-5 content-position text-start">
             <h1 class="">Complete your Dreams in JavaS Programming</h1>
@@ -26,17 +12,19 @@
             </p>
             <a href="#" class="button-page"><i class="fa fa-download"></i> Downloand free E-book</a>
           </div>
-          <div class="col-7 pr-2">
-            <img
-              src="@/assets/images/home-5-hero-image.png"
-              alt="img"
-              width="50%"
-            />
+          <div class="col-7 pr-2 container-icon-over">
+            <img src="@/assets/images/home-5-hero-image.png" alt="img" width="50%" />
+            <div class="icon-position d-flex flex-column">
+            <i class="fa fa-file-o" aria-hidden="true"></i>
+            <i class="fa fa-life-ring" aria-hidden="true"></i>
+            <i class="fa fa-book" aria-hidden="true"></i>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
-  </header>
+  </section>
+</header>
+
 </template>
 
 <script>
@@ -53,20 +41,29 @@ export default {
 <style lang="scss">
 .bg-color {
   background-color: rgba(233, 230, 227, 255);
-  .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: center;
-    ul {
-      display: flex;
-      list-style: none;
+}
+.container-icon-over{
+  margin: 0 auto;
+  position: relative;
+}
 
-      li {
-        padding: 10px;
-        font-weight: bold;
-      }
-    }
-  }
+.icon-position{
+    position: absolute;
+    bottom: 70%;
+    right: -2%;
+    transform: translate(0%, -50%);
+    width: 40px;
+    height: 60px;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+    .fa{ margin-right:0;
+         padding-bottom: 5px;
+         font-size: 20px;
+         background-color: white;
+         }
 }
 </style>
+
+/**Hover bottone , capire se fare un div prima del'header per il bg */

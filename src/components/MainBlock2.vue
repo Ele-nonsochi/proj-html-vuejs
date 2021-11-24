@@ -8,16 +8,16 @@
                <h3>WHY HESITATE TO REGISTER?</h3>
                <h1>Learn At Your Own Pace</h1>
                <ul>
-                   <li>Select & costumize courses to your preferences</li>
-                   <li>Change the tutor and make arrangements</li>
-                   <li>Participate in events to join others</li>
-                   <li>Get the desired certificate delivered at house</li>
+                   <li><i class="fa fa-check"></i>Select & costumize courses to your preferences</li>
+                   <li><i class="fa fa-check"></i>Change the tutor and make arrangements</li>
+                   <li><i class="fa fa-check"></i>Participate in events to join others</li>
+                   <li><i class="fa fa-check"></i>Get the desired certificate delivered at house</li>
                </ul>
                <a href="#" class="button-page">Get started for free</a>
                </div>
          </div>
          <div  class="col-6">
-            <div class="card">
+            <div class="card card-dimension">
                 <img src="@/assets/images/home-5-image-01.png" alt="image">
             </div>
          </div>
@@ -26,7 +26,7 @@
 <section class="container pb-5">
     <div class="row align-items-center" >
     <div  class="col-6">
-        <div class="card">
+        <div class="card card-dimension">
             <img src="@/assets/images/home-5-image-02.png" alt="image">
         </div>
          </div>
@@ -66,5 +66,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+.card-dimension{
+    border: none!important;
+    width: 70%;
+}
 </style>

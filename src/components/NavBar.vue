@@ -7,10 +7,10 @@
               <a>{{ item.title }} <i class="fa fa-angle-down"></i></a>
          </li>
          <div class="icon-nav">
-         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-         <i class="fa fa-user-o"></i>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fa fa-user-o"></i>
          </div>
-         <input type="search"/>
+            <input type="search" placeholder="Search"/>
         </ul>
       </nav>
     </div>
@@ -63,9 +63,7 @@ export default {
 </script>
 
 <style lang="scss">
-.bg-color {
-  background-color: rgba(233, 230, 227, 255);
-  .nav-bar {
+ .nav-bar {
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -80,15 +78,25 @@ export default {
       li {
         padding: 10px;
         font-weight: bold;
+        color: grey;
+        font-style: italic;
+        cursor: pointer;
       }
-      }
-    }
-  }
-
-.icon-nav{
+        .icon-nav{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 30px;
+        color: grey;
         }
+      input{
+        margin-left: 10px;
+        border: none;
+        border-radius: 10px;
+      }
+  }
+}
 </style>
+
+
+/**Provare ad inserire anche le icone dinamicamente */
+/**Per inserire anche le icone provo  :class="link.icon ? 'fa fa-search' : '' */
