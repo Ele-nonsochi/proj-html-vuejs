@@ -26,7 +26,7 @@
                 <li class="link" v-for="link, i in exploreLink" :key="i"><a  href="">{{link}}</a></li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col pt-4">
             <ul>
                <li class="link" v-for="link, i in middleLink" :key="i"><a  href="">{{link}}</a></li>
             </ul>

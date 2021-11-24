@@ -70,4 +70,13 @@ export default {
     border: none!important;
     width: 70%;
 }
+
+ul{
+    list-style: none;
+    padding-left: 0!important;
+    .fa{
+        color: green;
+        padding-right: 5px;
+    }
+}
 </style>
